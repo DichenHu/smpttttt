@@ -26,11 +26,17 @@ class App extends Component {
         <Router>
           <div className="App">
             <Header />
+            
             <h1></h1>
+
+          
            
 
             <div className="container">
               <div class="row">
+
+
+
                 <div className="col-12">
                   {
                     //Public Routes
@@ -54,6 +60,7 @@ class App extends Component {
                     component={PaymentPage}
                   />
                   <Route exact path="/map" component={Map} />
+
                 </div>
               </div>
             </div>
